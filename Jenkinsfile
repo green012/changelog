@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Hello') {
          when{
-            changeRequest()
+            changeset glob: *.js
          }
          steps {
             echo 'Hello World changelog done'
