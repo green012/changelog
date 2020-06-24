@@ -4,7 +4,7 @@ pipeline {
    stages {
       stage('Hello') {
          when{
-            changelog(".*some*.")
+            changeRequest()
          }
          steps {
             echo 'Hello World changelog done'
