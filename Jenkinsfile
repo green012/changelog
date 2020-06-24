@@ -7,7 +7,7 @@ pipeline {
             changeset glob: *.js
          }
          steps {
-            echo 'Hello World changelog done'
+            echo 'Hello World changeset is done'
          }
       }
    }
